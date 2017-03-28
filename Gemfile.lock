@@ -39,6 +39,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    awesome_print (1.7.0)
     builder (3.2.3)
     byebug (9.0.6)
     coffee-rails (4.2.1)
@@ -52,6 +53,8 @@ GEM
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.7.0)
+    faker (1.7.3)
+      i18n (~> 0.5)
     ffi (1.9.18)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
@@ -138,9 +141,9 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.9)
+    uglifier (3.1.10)
       execjs (>= 0.3.0, < 3)
     web-console (3.4.0)
       actionview (>= 5.0)
@@ -155,8 +158,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   byebug
   coffee-rails (~> 4.2)
+  faker
   hirb
   jbuilder (~> 2.5)
   jquery-rails
